@@ -7,6 +7,7 @@ name = "pypi"
 requests = "*"
 pytest = "*"
 flake8 = "*"
+gunicorn = "*"
 
 [dev-packages]
 
