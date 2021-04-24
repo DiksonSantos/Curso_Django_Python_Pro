@@ -2,7 +2,7 @@
 from urllib.request import urlopen
 import json
 
-# Esses dados correpondem a regiões dos EUA (Seguindo o padrão FIPS-> Deferal Information Processing Standard)
+# Esses dados correpondem a regiões dos EUA (Seguindo o padrão FIPS-> Federal Information Processing Standard)
 # E estão armazenados num arquivo 'json' (Arquivos parecidos com Planilhas do Excel)
 with urlopen('https://raw.githubusercontent.com/plotly/datasets/master/geojson-counties-fips.json') as response:
     condados = json.load(response)
